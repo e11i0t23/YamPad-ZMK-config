@@ -33,6 +33,7 @@
     macros {
         double_zero: double_zero {
             compatible = "zmk,behavior-macro";
+            #binding-cells = <1>;
             bindings = <&macro_tap &kp N0 &kp N0>;
         };
     };
